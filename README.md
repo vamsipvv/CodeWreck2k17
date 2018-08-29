@@ -3,4 +3,5 @@ A Programming Competition conducted on the occassion of our college fest VISTA 2
 Conducted in Codechef platform.
 Consists of three rounds.
 Round 0 is code debugging
-Round 1 and Round 2 are coding rounds in Codechef
+Round 1 and Round 2 are coding rounds in Codechef.
+All the materials and questions with test cases provided here.
