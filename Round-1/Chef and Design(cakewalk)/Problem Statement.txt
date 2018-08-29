@@ -1,0 +1,44 @@
+Chef and Design(cakewalk)
+Problem code: DESIGN
+_________________________________________________________________
+
+Chef has a great interest in textile designs. Whenever he has a free time he does some craft works.
+One day he decided to print a special pattern for his mother birthday so help chef in completing his task
+
+It is the pattern for N=5
+#####
+*####
+**###
+***##
+****#
+*****
+
+Input
+_________________________________________________________________
+
+The first line of input consist of an interger N
+
+Output
+_________________________________________________________________
+
+Print the pattern with width N and height N+1 which consist of #'s and *'s in it
+See the sample input and output for details
+
+Constraints
+_________________________________________________________________
+1 ≤ N ≤ 100
+
+Example
+_________________________________________________________________
+Input:
+6
+
+
+Output:
+######
+*#####
+**####
+***###
+****##
+*****#
+******

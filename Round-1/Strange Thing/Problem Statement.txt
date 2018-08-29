@@ -1,0 +1,56 @@
+Strange Thing
+Problem code: ENCRPT
+________________________________________________________________
+
+Early in the morning when chef woke up he observed very strange thing that the people around him started to communicate in an encrypted way.
+
+He was very frustrated with this encrypted language and want to crack it at any cost. After very long hours he found that people around him permuted the English alphabets for communication. 
+
+For example in one of the case, they permuted the English alphabetical order to the following order "qwertyuiopasdfghjklzxcvbnm"
+and if some want to say hello they need to say "itssg"(which is an encryption of "hello" in general English alphabetical order)
+
+Now chef being a computer science student want to write a program which can convert the given word from the encrypted language to normal English language.
+
+Input
+________________________________________________________________
+
+
+The first line of the input contains a string P with non-repeated characters of 26 alphabets which represents the permutation of 26 English Alphabets. 
+
+The next line consist of encrypted string S.
+
+Output
+________________________________________________________________
+
+
+For the given encrypted word, print the equivalent English word.
+
+Output
+________________________________________________________________
+
+For the given encrypted word, print the equivalent English word.
+
+Constraints
+________________________________________________________________
+
+
+1 ≤ |S| ≤ 1000
+where |S| represents length of the encrypted word.
+All letters in input are lowercase alphabets only.
+
+Example
+________________________________________________________________
+
+Input 1:
+qwertyuiopasdfghjklzxcvbnm
+itssg
+
+Output 1:
+hello
+
+Input 2:
+qwertyuiopasdfghjklzxcvbnm
+bnm
+
+Output 2:
+xyz

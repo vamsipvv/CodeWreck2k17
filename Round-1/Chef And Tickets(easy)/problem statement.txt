@@ -1,0 +1,39 @@
+Chef And Tickets(easy)
+Problem code: TCKS
+_____________________________________________________________________
+
+Chef and his parents are on a vacation to chefland. They decided to goto a movie
+
+
+Being younger one in his family chef immediately went to collect the tickets but unfortunatly he lost one of the ticket. His father got angry on him and took remianing tickets
+
+Later even his father has also lost a ticket. So atlast seeing all these things chef's mother took all tickets from them and want to know the ticket numbers that are lost. Help his mother in finding the ticket numbers
+
+You will be given N integers which are the ticket numbers and N-1 integers after chef had lost a ticket N-2 integers after chef's father had lost a ticket
+
+Input
+_____________________________________________________________________
+The first line of input consist N which represents no of tickets
+the next 3 lines consist of N, N-1, N-2 space seperated integers denoting ticket numbers
+It is guaranteed that there will be no new number replaced in last two lines
+
+Output
+_____________________________________________________________________
+output a single line consist of two space seperated integers which are the lost ticket numbers by chef and his father
+
+Constraints
+_____________________________________________________________________
+2 <= N <= 10^5.
+1 <= Ai <= 10^6
+
+Example
+_____________________________________________________________________
+Input:
+4
+1 2 3 4
+3 2 4
+2 4
+Output:
+1
+3
+ 

@@ -1,0 +1,37 @@
+
+Cricket (CakeWalk)
+Problem code: CRIC
+_________________________________________________________________
+
+Chef was a big fan of cricket but never played in his life time one day he met his old friend Vamsi who is also a big fan of cricket later chef thought to play a match with Vamsi. Both the players play alternatively(chef is the first person to play) your task is to calculate the Chef's score and Vamsi's score and report them.
+
+Note: As chef is newbie there will be no exchange of batsmen for every over(6 balls).
+
+Input
+_________________________________________________________________
+
+The first line of the input file consist of a single integer which represents no. of balls. N
+The next consist of N space separated integers.
+
+Output
+_________________________________________________________________
+
+Output chef's score followed by Vamsi's score
+
+Constraints
+_________________________________________________________________
+
+1 ≤ N ≤ 360
+0 ≤ Ai ≤ 6
+
+Example
+_________________________________________________________________
+Input:
+6
+2 3 6 0 6 6
+Output:
+14 9
+
+Explanation:
+
+The match is played for 6 balls chef plays the first ball 3rd ball and 5th ball and scored 14 runs where as Vamsi played 2nd 4th and 6th ball and scored 9 runs ...

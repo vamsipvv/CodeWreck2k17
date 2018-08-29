@@ -1,0 +1,45 @@
+Magic Potion
+Problem code: SAINT
+________________________________________________________________
+
+One-day Chef visited a strange place where he met a saint who is very old and calm. Chef being a poor person he requested saint to help him with his life. Saint want to know more about him so he decided to test his skills and given a plant which is one meter high and a magic potion. Later Saint told that this is a very precious plant for him and this plant will double its height every day. Magic potion can increase the plant size by 1 meter more (provided he can use it only one time a day) and also saint want him to use magic potion minimum no.of times.Chef has to grow that plant to a desired height. So chef asks your help to find the number of times he need to use the magic potion.
+
+Input
+________________________________________________________________
+
+The first line of input consist of integer N which represent the exact height the chef has to grow that plant.
+
+Output
+________________________________________________________________
+
+Output a single line which consists of an integer representing minimum number of times chef need to use the magic potion.
+
+
+Constraints
+________________________________________________________________
+
+1 ≤ N ≤ 10^18
+
+Subtask 1(30pts)
+	1 ≤ N ≤ 10^3
+
+Subtask 2(70pts)
+	original constraints
+
+Example
+________________________________________________________________
+Sample Input1:
+3
+
+Sample Output1:
+1
+
+Sample Input 2:
+8
+
+Sample Output2:
+0
+
+
+Explanation:
+For 2nd case it is not at all necessary to use the magic portion as the plant reaches the given height on 3rd day so hence the answer is zero ...
