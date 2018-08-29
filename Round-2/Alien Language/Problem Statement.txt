@@ -1,0 +1,52 @@
+Alien Language
+Problem code: ALIEN
+________________________________________________________________
+
+Aliens started their journey towards our earth. They some how mastered our English language through a dictionary. However, they were unable to understand the concept of spaces present between words. 
+
+They are continuously sending messages to our earth but it has to be converted to normal form (i.e if the aliens msg is helloworld it has to be translated into hello world with help of provided dictionary ). Scientist believes that these messages consist a very valuable information about how they planning to attack us. And it is guaranteed that aliens communicate only with the words present in the dictionary. 
+
+This small planet needs your help protect it with your skill
+
+Warning!! very large input files use faster i/o's
+
+Input
+________________________________________________________________
+
+The first line of the input contains an integer N denoting the size of dictionary.
+The next following N lines consist of words present in dictionary
+The next line of the input contains an integer T denoting no.of alien language words that are need to be converted
+See sample input and output for better understanding
+
+Output
+________________________________________________________________
+For each test case, output a single line which containing space seperated words that are present in the dictionary.
+In case of multiple answers make sure the 1st word length to be minimum
+
+Constraints
+________________________________________________________________
+
+1 ≤ N ≤ 106
+1 ≤ |W| ≤ 20
+1 ≤ T ≤ 100
+1 ≤ |A| ≤ 40
+where |W| denotes the length of the largest string present in the dictionary and |A| denotes the length of the string from alien language
+
+Example
+________________________________________________________________
+
+Input:
+6
+coding
+code
+wreck
+dechef
+co
+chef
+2
+codingwreck
+codechef
+
+Output:
+coding wreck
+co dechef

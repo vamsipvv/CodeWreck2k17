@@ -1,0 +1,49 @@
+Dual Palindrome(easy)
+Problem code: DUAL
+________________________________________________________________
+
+Chef is a junior programmer from VIIT who is currently working on palindromes. Nowadays he became very lazy and he was not even able to do his daily works
+
+
+But the good news is, his friends are helping him to complete his works and now you being a good friend to chef you are supposed to help him. 
+Given two strings A, B you need to find whether they form a dual palindrome or not, two strings are said to be a dual palindrome if and only if on concatenating(Both A+B and B+A) them they have to form a palindrome 
+
+for Example: A = "chef", B = "fehc" Forms a dual palindrome since A+B = "cheffehc" and B+A = "fehcchef" both are palindromes. where as on otherhand A = "code"B= "chef" doesn't form a dual palindrome since both "codechef" and "chefcode" are not palindromes.
+
+NOTE: It is important that both A+B and B+A are to be palindrome see sample test cases for more info
+
+Input
+________________________________________________________________
+
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+
+Each testcase consist of 2 space seperated non empty strings A,B
+
+Output
+________________________________________________________________
+
+For each test case output a single line with Dual palindrome if they form Dual Palindrome otherwise print -1.
+
+Constraints
+________________________________________________________________
+
+1 ≤ T ≤ 10
+1 ≤ |A| ≤ 100
+1 ≤ |B| ≤ 100
+
+Example
+________________________________________________________________
+
+Input:
+4
+code edoc
+a b
+a a
+code code
+
+
+Output:
+Dual Palindrome
+-1
+Dual Palindrome
+-1

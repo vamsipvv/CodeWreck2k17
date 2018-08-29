@@ -1,0 +1,47 @@
+Prime Wreck
+Problem code: WRECK
+________________________________________________________________
+
+Wrecking is a process of destruction. But if one wish to wreck an integer they must know the smallest and the largest prime factor of that number 
+
+For example if one wishes to wreck 100(whose prime factors are 2 x 2 x 5 x 5) one should  know 2,5 as smallest and largest prime factors of 100 now your task is to write a program which can wreck the numbers.
+
+Input
+________________________________________________________________
+
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+
+The first line of each test case contains a single integer N denoting the number which has to be wrecked
+
+Output
+________________________________________________________________
+
+For each test case, output a single line containing space seperated smallest and largest prime factor of given number N.
+
+Constraints
+________________________________________________________________
+
+2 ≤ T ≤ 10^4
+2 ≤ N ≤ 10^6
+
+Subtask1(30 pts)
+	2 ≤ T ≤ 10
+	2 ≤ N ≤ 10^6
+Subtask2(70 pts)
+Original constraints 
+
+Example
+________________________________________________________________
+
+Input:
+
+3
+2
+100
+500
+
+Output:
+
+2 2
+2 5
+2 5
